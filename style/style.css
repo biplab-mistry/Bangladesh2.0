@@ -24,6 +24,10 @@ p {
     line-height: 0.8;
 }
 
+body {
+    background-color: #F1F1F3;
+}
+
 .container {
     width: 1280px;
     margin: 0 auto;
@@ -43,7 +47,8 @@ nav ul li a {
     font-size: 32px;
     color: #0E0E0E;
 }
-nav ul li .signIn{
+
+nav ul li .signIn {
     font-family: "Fira Sans", serif;
     font-weight: 600;
     font-size: 18px;
@@ -52,25 +57,29 @@ nav ul li .signIn{
     border: 1px solid #006A50;
     border-radius: 15px;
 }
+
 /* Banner part start Here */
-#Banner{
+#Banner {
     background-color: #C6E4D6;
     padding: 117px 60px;
     margin-top: 20px;
     border-radius: 24px;
 }
-.background-content-wrapper{
+
+.background-content-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.background-content p{
+
+.background-content p {
     font-family: "Fira Sans", serif;
     font-weight: 500;
     font-size: 24px;
     color: rgba(14, 14, 14, 0.5);
 }
-.background-content h2{
+
+.background-content h2 {
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-size: 56px;
@@ -79,7 +88,8 @@ nav ul li .signIn{
     margin-bottom: 45px;
     margin-top: 16px;
 }
-.background-content a{
+
+.background-content a {
     font-family: "Fira Sans", serif;
     font-weight: 600;
     font-size: 18px;
@@ -87,4 +97,45 @@ nav ul li .signIn{
     padding: 17px 34px;
     background-color: #006A50;
     border-radius: 17px;
+}
+
+/* pillars of bangladesh part start here */
+#pillars {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#pillars h3{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0E0E0E;
+    margin-bottom: 32px;
+}
+
+.pillars-card {
+    width: 302px;
+    background-color: #FFF;
+    padding: 24px;
+    color: rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.pillars-content h4{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #0E0E0E;
+    padding-top: 15px;
+    padding-bottom: 7px;
+}
+.pillars-content p{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.pillars-of-bangladesh-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
