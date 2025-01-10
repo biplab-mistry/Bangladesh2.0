@@ -104,7 +104,8 @@ nav ul li .signIn {
     margin-top: 80px;
     margin-bottom: 80px;
 }
-#pillars h3{
+
+#pillars h3 {
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-size: 40px;
@@ -119,7 +120,8 @@ nav ul li .signIn {
     color: rgba(14, 14, 14, 0.15);
     border-radius: 16px;
 }
-.pillars-content h4{
+
+.pillars-content h4 {
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-size: 20px;
@@ -127,15 +129,91 @@ nav ul li .signIn {
     padding-top: 15px;
     padding-bottom: 7px;
 }
-.pillars-content p{
+
+.pillars-content p {
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     color: rgba(14, 14, 14, 0.7);
 }
-.pillars-of-bangladesh-wrapper{
+
+.pillars-of-bangladesh-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* vision part start here */
+.common-header {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+
+.sub-title {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.vision-item {
+    width: 410px;
+    padding: 32px;
+    background-color: rgba(84, 143, 245, 0.2);
+    border-radius: 16px;
+}
+
+.vision-item h3 {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.80);
+    width: 410px;
+    padding-bottom: 12px;
+    padding-top: 14px;
+}
+
+.vision-item p {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.70);
+    width: 410px;
+    margin-bottom: 30px;
+}
+
+.vision-item a {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #5490F5;
+    width: 410px;
+    padding: 11px 20px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.vision-future-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vision-future-wrapper .last-item{
+    background-color: #F7EBCF;
+}
+.vision-future-wrapper .last-item a{
+    background-color:#FFC239;
+}
+.vision-future-wrapper .mid-item{
+    background-color: #C6E4D6;
+}
+.vision-future-wrapper .mid-item a{
+    background-color:  #09A15C  ;
 }
