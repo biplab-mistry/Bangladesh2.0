@@ -195,6 +195,7 @@ nav ul li .signIn {
     font-size: 16px;
     background-color: #5490F5;
     width: 410px;
+    height: 325px;
     padding: 11px 20px;
     border-radius: 8px;
     color: #fff;
@@ -205,15 +206,52 @@ nav ul li .signIn {
     justify-content: space-between;
     align-items: center;
 }
-.vision-future-wrapper .last-item{
+
+.vision-future-wrapper .last-item {
     background-color: #F7EBCF;
 }
-.vision-future-wrapper .last-item a{
-    background-color:#FFC239;
+
+.vision-future-wrapper .last-item a {
+    background-color: #FFC239;
 }
-.vision-future-wrapper .mid-item{
+
+.vision-future-wrapper .mid-item {
     background-color: #C6E4D6;
 }
-.vision-future-wrapper .mid-item a{
-    background-color:  #09A15C  ;
+
+.vision-future-wrapper .mid-item a {
+    background-color: #09A15C;
+}
+
+/* quote section start here */
+#quote {
+    background-image: url(../assets/quote-bg.png);
+    background-position: top 5px left 25px;
+    background-size: 64px;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    border-radius: 16px;
+    margin-top: 32px;
+    text-align: justify;
+    margin-bottom: 80px;
+}
+
+#quote p {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    line-height: 24px;  
+}
+.last-para{
+    padding-bottom: 18px;
+}
+
+#quote h5 {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    line-height: 24px;  
 }
