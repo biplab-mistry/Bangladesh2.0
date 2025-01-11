@@ -356,7 +356,7 @@ nav ul li .signIn {
 
 .inner-news-content {
     width: 744px;
-  
+
 }
 
 .news-content-wrapper {
@@ -392,37 +392,43 @@ nav ul li .signIn {
     border-radius: 8px;
     background-color: #006A50;
 }
-.mid-news{
+
+.mid-news {
     margin: 24px 0;
 }
+
 /* donate part start */
-#donate{
+#donate {
     text-align: center;
     margin: 80px 0;
 }
 
-.donate-amount-wrapper{
+.donate-amount-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
 }
-.donate-amount-wrapper .item h4{
+
+.donate-amount-wrapper .item h4 {
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-size: 40px;
     color: rgba(14, 14, 14, 0.8);
 
 }
-.donate-amount-wrapper{
+
+.donate-amount-wrapper {
     margin-bottom: 32px;
 }
-.donate-amount-wrapper .item{
+
+.donate-amount-wrapper .item {
     padding: 40px;
     border-radius: 16px;
     background-color: #FFF;
 }
-#donate input{
+
+#donate input {
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-size: 20px;
@@ -430,7 +436,8 @@ nav ul li .signIn {
     padding: 13px 380px;
     border: none;
 }
-#donate a{
+
+#donate a {
     font-family: "Fira Sans", serif;
     font-weight: 600;
     font-size: 18px;
@@ -440,4 +447,82 @@ nav ul li .signIn {
     border-radius: 8px;
     display: inline-block;
     margin-top: 32px;
+}
+
+/* news latter section start */
+#newsLatter {
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 0px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#newsLatter input {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.3);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 400px;
+    border-radius: 18px 0px 0px 18px;
+    border: none;
+
+}
+
+.news-latter-content {
+    position: relative;
+}
+
+#newsLatter a {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 34px;
+    color: #FFF;
+    background-color: #006A50;
+    border-radius: 0px 17px 17px 0px;
+    position: absolute;
+    right: 190px;
+    top: 132px;
+}
+
+#newsLatter p {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 24px;
+    color: rgba(14, 14, 14, 0.7);
+
+}
+
+/* footer part start */
+#footer-header h3 {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #0E0E0E;
+    margin-bottom: 32px;
+}
+
+footer {
+    text-align: center;
+}
+footer hr{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: rgba(14, 14, 14, 0.1);
+}
+.footer-icon img{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.footer-icon img:last-child{
+    margin-right: 0;
+
 }
