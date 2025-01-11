@@ -409,7 +409,12 @@ nav ul li .signIn {
     border-radius: 8px;
     background-color: #006A50;
 }
-
+.inner-news-content a:hover{
+    background-color: #FFC239;
+    color: #0E0E0E;
+    border: 1px solid #0E0E0E;
+    transition: all linear .3s;
+}
 .mid-news {
     margin: 24px 0;
 }
