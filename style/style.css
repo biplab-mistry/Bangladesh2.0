@@ -449,7 +449,10 @@ nav ul li .signIn {
     border-radius: 16px;
     background-color: #FFF;
 }
-
+.donate-amount-wrapper .item:hover{
+    background-color: #C6E4D6;
+    transition: all linear .3s;
+}
 #donate input {
     font-family: "Fira Sans", serif;
     font-weight: 400;
@@ -470,7 +473,13 @@ nav ul li .signIn {
     display: inline-block;
     margin-top: 32px;
 }
-
+#donate a:hover{
+    background-color: #5490F5;
+    color: #FFC239;
+    border: 1px solid #0E0E0E;
+    font-size: 30px;
+    transition: all linear .3s;
+}
 /* news latter section start */
 #newsLatter {
     background-color: #C6E4D6;
@@ -510,7 +519,11 @@ nav ul li .signIn {
     right: 190px;
     top: 132px;
 }
-
+#newsLatter a:hover{
+   color: red;
+    background-color: #FFC239;
+    transition: all linear .3s;
+}
 #newsLatter p {
     font-family: "Fira Sans", serif;
     font-weight: 600;
