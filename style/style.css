@@ -383,6 +383,13 @@ nav ul li .signIn {
     align-items: flex-start;
 }
 
+.inner-news-content h3{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+}
 .inner-news-content h6 {
     font-family: "Fira Sans", serif;
     font-weight: 400;
