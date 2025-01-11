@@ -205,6 +205,11 @@ nav ul li .signIn {
     color: #fff;
 }
 
+.vision-item a:hover {
+    background-color: #FFC239;
+    transition: all linear .3s;
+}
+
 .vision-future-wrapper {
     display: flex;
     justify-content: space-between;
@@ -219,12 +224,24 @@ nav ul li .signIn {
     background-color: #FFC239;
 }
 
+.vision-future-wrapper .last-item a:hover {
+    background-color: lightcoral;
+    transition: all linear .3s;
+    color: yellow;
+}
+
 .vision-future-wrapper .mid-item {
     background-color: #C6E4D6;
 }
 
 .vision-future-wrapper .mid-item a {
     background-color: #09A15C;
+}
+
+.vision-future-wrapper .mid-item a:hover {
+    background-color: lightpink;
+    transition: all linear .3s;
+    color: #0E0E0E;
 }
 
 /* quote section start here */
@@ -510,19 +527,22 @@ nav ul li .signIn {
 footer {
     text-align: center;
 }
-footer hr{
+
+footer hr {
     margin-top: 32px;
     margin-bottom: 32px;
     color: rgba(14, 14, 14, 0.1);
 }
-.footer-icon img{
+
+.footer-icon img {
     width: 24px;
     height: 24px;
     display: inline-block;
     margin-right: 20px;
     margin-bottom: 50px;
 }
-.footer-icon img:last-child{
+
+.footer-icon img:last-child {
     margin-right: 0;
 
 }
