@@ -102,6 +102,12 @@ nav ul li .signIn {
     background-color: #006A50;
     border-radius: 17px;
 }
+.background-content a:hover{
+    background-color: #FFC239;
+    transition: all linear .3s;
+    color: #006A50;
+    font-size: 25px;
+}
 
 /* pillars of bangladesh part start here */
 #pillars {
