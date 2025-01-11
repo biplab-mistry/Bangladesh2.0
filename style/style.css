@@ -242,9 +242,10 @@ nav ul li .signIn {
     font-weight: 400;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.8);
-    line-height: 24px;  
+    line-height: 24px;
 }
-.last-para{
+
+.last-para {
     padding-bottom: 18px;
 }
 
@@ -253,5 +254,84 @@ nav ul li .signIn {
     font-weight: 600;
     font-size: 20px;
     color: rgba(14, 14, 14, 0.8);
-    line-height: 24px;  
+    line-height: 24px;
+}
+
+/* opinion css start here */
+.opinion-container{
+    border-radius: 16px;
+    background-color: #FFF;
+    padding: 32px;
+    margin-top: 24px;
+}
+.opinion-wrapper {
+    border: 1px solid rgba(14, 14, 14, 0.15); 
+}
+
+.inner-opinion-wrapper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    padding: 22px;
+}
+
+.inner-opinion-wrapper-header h5 {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #0E0E0E;
+    background-color: #C6E4D6;
+}
+
+.first-opinion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+}
+
+.mid-opinion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+}
+
+.last-opinion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+}
+
+.opinion-wrapper {
+    position: relative;
+}
+
+.vertical {
+    position: absolute;
+    width: 1px;
+    height: 200px;
+    right: 150px;
+    top: 0px;
+    background-color: rgba(14, 14, 14, 0.15);
+}
+
+.inner-opinion-container p {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0E0E0E;
+}
+
+.inner-opinion-container select {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 3px;
+    color: #0E0E0E;
+    /* margin: 24px; */
+    background-color: #C6E4D6;
+    border: 1px solid #0E0E0E;
 }
